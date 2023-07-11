@@ -61,7 +61,7 @@
             }
 
             &.right {
-                .testim__content { padding-right: 40px;
+                .testim__content { //padding-right: 40px;
                     @include breakpoint(mamabear) { padding:20px 0 0;}
                 }
                 .video-wrapper { order:2;

@@ -302,7 +302,7 @@ header.header { width:100%; transition: top .3s ease; position: sticky; z-index:
         }
     }
 
-    .header__main { position: relative; background: $white; border-bottom: 2px solid $secondary;
+    .header__main { position: relative; background: $secondary; border-bottom: 2px solid $secondary;
         @include breakpoint(papabear) { padding: 5px 0;}
 
         .max__width { display: flex; justify-content: space-between; align-items: center;}
@@ -329,14 +329,14 @@ header.header { width:100%; transition: top .3s ease; position: sticky; z-index:
             .logo {
     
                 a { display:block;
-                    img { width: 278px; align-self:center; margin: 0 auto;
+                    img { width: 400px; align-self:center; margin: 0 auto;
                         @include breakpoint(brotherbear) { width: 139px;}
                     }
                 }
             }
         }
 
-        .header__cta{ display: flex; align-items: flex-end; flex-direction: column;
+        .header__cta{ display: flex; align-items: flex-end; flex-direction: column; padding-top: 20px;
             @include breakpoint(papabear) { flex-direction: row; align-items: center;}
 
             .contact{
@@ -347,14 +347,14 @@ header.header { width:100%; transition: top .3s ease; position: sticky; z-index:
                 li{
                     padding-left: 20px; display: flex; align-items: center;
     
-                    i{color: $secondary; margin-right: 7px; font-size: 22px;}
+                    i{color: $white; margin-right: 7px; font-size: 22px;}
     
-                    a{ color: $secondary; font-family: $primaryFont;
+                    a{ color: $white; font-family: $primaryFont;
                         &:hover{
                             color: $primary;
     
                             i{
-                                color: $primary;
+                                color: $white;
                             }
                         }
                     }
@@ -362,7 +362,7 @@ header.header { width:100%; transition: top .3s ease; position: sticky; z-index:
             }
 
             .header__menu{
-                display: flex; align-items: center; margin-top: 30px;
+                display: flex; align-items: center; margin-top: 20px;
                 @include breakpoint(papabear) { display: none;}
            
                 ul { display: flex; align-items: center;
@@ -392,7 +392,7 @@ header.header { width:100%; transition: top .3s ease; position: sticky; z-index:
                             }
                         }
             
-                        ul { position:absolute; top:114px; padding:0; width:100%; max-width:250px; background: #fff; z-index: 3; text-align: left; padding: 10px; display: none; flex-direction: column; box-shadow: 0 5px 10px rgba(black, 0.2); margin: 0; border-top: 2px solid $secondary;
+                        ul { position:absolute; top: 99px; padding:0; width:100%; max-width:200px; background: #fff; z-index: 3; text-align: left; padding: 10px; display: none; flex-direction: column; box-shadow: 0 5px 10px rgba(black, 0.2); margin: 0; border-top: 2px solid $secondary;
 
                             li { margin:0; border-top:none;
 
@@ -414,10 +414,10 @@ header.header { width:100%; transition: top .3s ease; position: sticky; z-index:
                             }
                         }
     
-                        a { font-size: 15px; color: $text; display: flex; align-items: center; text-transform: uppercase; text-align: center; padding: 15px;
+                        a { font-size: 15px; color: $white; display: flex; align-items: center; text-transform: uppercase; text-align: center; padding: 15px;
 
                             &:hover{
-                                color: $secondary;
+                                color: $primary;
                             }
 
                             &.button{ min-height: 34px; font-weight: bold;
@@ -566,7 +566,7 @@ section {
 footer { padding: 0; position: relative;
 
     .footer__menus{
-        background: $primary;
+        background: $secondary;
 
         .max__width{
             padding: 40px 60px 20px; display:flex;
