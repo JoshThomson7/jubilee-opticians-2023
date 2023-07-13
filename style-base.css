@@ -29443,7 +29443,7 @@ footer .footer__menus .max__width article ul li a {
   }
 }
 footer .footer__menus .max__width article ul li a:hover {
-  color: #97aee5;
+  color: #1C3780;
   opacity: 1;
 }
 footer .footer__menus .max__width article.social {
@@ -29480,7 +29480,7 @@ footer .footer__menus .max__width article.social i {
   margin: 0px 15px 0 0;
 }
 footer .footer__menus .max__width article.social i:hover {
-  color: #97aee5;
+  color: #1C3780;
 }
 footer .footer__menus .max__width article.contact-info i {
   font-size: 18px;
@@ -29490,15 +29490,12 @@ footer .footer__menus .max__width article.contact-info i {
   justify-content: center;
   margin: 0px 15px 0 0;
 }
-footer .footer__menus .max__width article.contact-info i:hover {
-  color: #97aee5;
-}
 footer .footer__menus .max__width article .contact a {
   color: white;
   line-height: 24px;
 }
 footer .footer__menus .max__width article .contact a:hover {
-  color: #97aee5;
+  color: #1C3780;
 }
 footer .footer__menus .max__width article iframe {
   border: 2px solid #97aee5 !important;
