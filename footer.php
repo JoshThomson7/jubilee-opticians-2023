@@ -88,8 +88,10 @@
 
     <div class="subfooter">
         <div class="subfooter__credits">
-            <img src="<?php echo $logo; ?>" alt="<?php bloginfo('name'); ?>">
-            <p>&copy;<?php bloginfo('name') ?> <?php echo date("Y"); ?></p>
+            <a href="<?php echo esc_url(home_url()); ?>" title="<?php bloginfo('name'); ?>">
+                <h3>JUBILEE OPTICIANS</h3>
+                <span>Complete Local Eyecare</span>
+            </a>
             <p class="credit"><a href="https://thomson-website-solutions.com/" target="_blank">Website by Thomson Website Solutions</a></p>
         </div><!-- subfooter__credits -->
     </div><!-- subfooter -->

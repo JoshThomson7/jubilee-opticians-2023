@@ -38,8 +38,8 @@
                     <div class="header_logo_menu">
                         <div class="logo">
                             <a href="<?php echo esc_url(home_url()); ?>" title="<?php bloginfo('name'); ?>">
-
-                                <img src="<?php echo $logo; ?>" alt="<?php bloginfo('name'); ?>">
+                                <h3>JUBILEE OPTICIANS</h3>
+                                <span>Complete Local Eyecare</span>
                             </a>
                         </div><!-- logo -->
                     </div>

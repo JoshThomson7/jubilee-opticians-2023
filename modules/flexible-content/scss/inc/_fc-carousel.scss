@@ -12,11 +12,19 @@ Carousel
 
 .fc_carousel_images {
 
-    .carousel_images { display: flex; justify-content: space-around; height: 100px !important; width: 100% !important;
-        .carousel_image { display: flex; align-items: center; justify-content: center; float: none; padding: 0 15px; max-width: 195px; width: 100%;
+    .carousel_images{
+        .carousel_image{
+            margin: 0 15px;
+            
             img { width: auto; max-height: 100px;}
         }
     }
+
+    // .carousel_images { display: flex; justify-content: space-around; height: 100px !important; width: 100% !important;
+    //     .carousel_image { display: flex; align-items: center; justify-content: center; float: none; padding: 0 15px; max-width: 195px; width: 100%;
+    //         img { width: auto; max-height: 100px;}
+    //     }
+    // }
 
     // Lightslider Pagination
     ul.lSPager { display: flex; justify-content: center; margin: 10px 0 0;

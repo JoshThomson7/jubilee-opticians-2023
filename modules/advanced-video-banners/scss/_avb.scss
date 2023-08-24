@@ -32,7 +32,7 @@ section.banners { position: relative; overflow: hidden;
 
         &__width { display: flex; height: 100%; overflow: hidden; flex-direction: column; justify-content: space-around;}
 
-        &__caption { z-index: 4; display: flex; flex-direction: column; width: 700px; justify-content: center; box-sizing: border-box; visibility: visibile; opacity: 1; transition: all .4s ease; position: relative;
+        &__caption { z-index: 4; display: flex; flex-direction: column; width: 50%; justify-content: center; box-sizing: border-box; visibility: visibile; opacity: 1; transition: all .4s ease; position: relative;
             @include breakpoint(papabear) { width: 60%;}
             @include breakpoint(mamabear) { width: 100%; align-items: center;}
 
@@ -55,7 +55,7 @@ section.banners { position: relative; overflow: hidden;
                 @include breakpoint(mamabear) {  font-size: 42px; line-height: 50px; text-align: center;}
             }
 
-            p { font-size: 18px; color: $white; line-height: 30px; padding: 0 0 40px;
+            p { font-size: 26px; color: $white; line-height: 30px; padding: 0 0 40px;
                 @include breakpoint(mamabear) { font-size: 26px; line-height: 34px; text-align: center; padding-right: 0;}
             }
 
