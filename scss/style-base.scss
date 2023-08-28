@@ -45,7 +45,9 @@
 
 ------------------------------------------- */
 
-body { font-family:$primaryFont; font-size:$baseFontSize; font-weight: 500; color:$text; overflow-x: hidden;
+.language-switcher{display: none;}
+
+body { font-family:$primaryFont; font-size:$baseFontSize; color:$text; overflow-x: hidden;
     &.no__scroll { overflow:hidden;}
 }
 
@@ -312,14 +314,14 @@ header.header { width:100%; transition: top .3s ease; position: sticky; z-index:
             display: none;
             @include breakpoint(papabear) { display: block;}
 
-            a { display: flex; align-items: center; color: $primary; font-family: $boldFont; font-size: 16px;
+            a { display: flex; align-items: center; color: $primary; font-size: 16px;
                 &:hover{
-                    color: $white; border: 1px solid $primary;
+                    color: $white; background: $tertiary;
 
                     i{color: $white;}
                 }
 
-                i { font-size: 18px;  color: $primary; padding-right: 15px;}
+                i { font-size: 34px;  color: $tertiary;}
             }
         }
 
@@ -329,8 +331,11 @@ header.header { width:100%; transition: top .3s ease; position: sticky; z-index:
             .logo {
     
                 a { display:block; text-align: center;
-                    h3{font-size: 30px; color: white; margin-bottom: 10px;}
-                    span{font-size: 18px; color: white;}
+                    h3{font-size: 46px; margin-bottom: 10px; color: $tertiary; font-weight: 900;
+                        @include breakpoint(mamabear){font-size: 28px;}
+                    }
+
+                    span{font-size: 22px; color: $tertiary; font-weight: 900;}
 
                     img { width: 400px; align-self:center; margin: 0 auto;
                         @include breakpoint(brotherbear) { width: 139px;}
@@ -339,7 +344,7 @@ header.header { width:100%; transition: top .3s ease; position: sticky; z-index:
             }
         }
 
-        .header__cta{ display: flex; align-items: flex-end; flex-direction: column; padding-top: 20px;
+        .header__cta{ display: flex; align-items: flex-end; justify-content: center; flex-direction: column; padding-top: 20px;
             @include breakpoint(papabear) { flex-direction: row; align-items: center;}
 
             .contact{
@@ -577,7 +582,7 @@ footer { padding: 0; position: relative;
             @include breakpoint(teenbear) { padding: 20px;}
 
             article {
-                width: 25%;
+                width: 33.33333%;
                 
                 @include breakpoint(papabear) { width:100%; border-bottom: 1px $border solid;}
 
@@ -664,8 +669,8 @@ footer { padding: 0; position: relative;
         .subfooter__credits { display:flex; flex-direction: column; text-align: center; align-items: center;
 
             a { display:block; text-align: center; margin-bottom: 20px;
-                h3{font-size: 30px; color: $primary; margin-bottom: 5px;}
-                span{font-size: 18px; color: $primary;}
+                h3{font-size: 30px; color: $tertiary; margin-bottom: 5px;}
+                span{font-size: 18px; color: $tertiary;}
             }
 
             img{

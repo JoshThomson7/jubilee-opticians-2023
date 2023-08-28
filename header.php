@@ -56,7 +56,7 @@
                         </div><!-- header__right -->
 
                         <div class="oc__nav__trigger">
-                            <a class="button outline primary small"><i class="fal fa-align-left"></i>Menu</a>
+                            <a class="button outline primary small"><i class="fa fa-bars"></i></a>
                         </div>
  
                     </div>

@@ -20,9 +20,9 @@ jQuery(document).ready(function($){
         prevHtml: '<i class="ion-ios-arrow-left"></i>',
         nextHtml: '<i class="ion-ios-arrow-right"></i>',
         pager: false,
-        autoWidth: true,
+        // autoWidth: true,
         auto: true,
-        pause: 6000,
+        pause: 2000,
         slideMargin: 0,
         enableDrag: false,
         responsive : [
@@ -44,7 +44,7 @@ jQuery(document).ready(function($){
         nextHtml: '<i class="ion-ios-arrow-right"></i>',
         pager: true,
         auto: true,
-        pause: 6000,
+        pause: 3000,
         slideMargin: 0,
         enableDrag: false,
         responsive : [

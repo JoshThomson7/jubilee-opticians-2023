@@ -32,7 +32,7 @@
 
 .section__heading { display: flex; flex-direction: column; padding: 0 0 20px 0;
 
-    h2 { font-size: 30px; text-transform: none; color: $quarternary; margin: 0; display: flex; font-family: $boldFont;
+    h2 { font-size: 30px; text-transform: none; color: $tertiary; margin: 0; display: flex; font-family: $boldFont;
         @include breakpoint(teenbear){font-size: 24px;}
     }
 

@@ -16,7 +16,7 @@ Carousel
         .carousel_image{
             margin: 0 15px;
             
-            img { width: auto; max-height: 100px;}
+            img { width: auto; max-height: 150px; min-width: 150px; margin: 0 20px;}
         }
     }
 
@@ -37,11 +37,11 @@ Carousel
     .lSAction {
         a { z-index: 5;
             &.lSPrev,
-            &.lSNext { background: none; color: $text; font-size: 40px; background: #fff; height: 47px;}
+            &.lSNext { background: none; color: $text; font-size: 40px; background: $tertiary; height: 47px; opacity: 1!important; color: white;}
         }
 
-        &>.lSPrev { left:0;}
-        &>.lSNext { right:0;
+        &>.lSPrev { left:0; padding-left: 7px;}
+        &>.lSNext { right:0; padding-right: 7px;
             i { float: right;}
         }
     }
