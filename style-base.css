@@ -25814,11 +25814,21 @@ Flexible Content
 .flexible__content .fc_carousel_images .carousel_images .carousel_image {
   margin: 0 15px;
 }
+@media (max-width: 550px) {
+  .flexible__content .fc_carousel_images .carousel_images .carousel_image {
+    margin: 0 auto;
+  }
+}
 .flexible__content .fc_carousel_images .carousel_images .carousel_image img {
   width: auto;
   max-height: 150px;
   min-width: 150px;
   margin: 0 20px;
+}
+@media (max-width: 550px) {
+  .flexible__content .fc_carousel_images .carousel_images .carousel_image img {
+    margin: 0 auto;
+  }
 }
 .flexible__content .fc_carousel_images ul.lSPager {
   display: flex;
@@ -25843,13 +25853,14 @@ Flexible Content
   z-index: 5;
 }
 .flexible__content .fc_carousel_images .lSAction a.lSPrev, .flexible__content .fc_carousel_images .lSAction a.lSNext {
-  background: none;
-  color: #3E443C;
   font-size: 40px;
-  background: #0F2F79;
+  background: rgba(15, 47, 121, 0.5);
   height: 47px;
   opacity: 1 !important;
   color: white;
+}
+.flexible__content .fc_carousel_images .lSAction a.lSPrev:hover, .flexible__content .fc_carousel_images .lSAction a.lSNext:hover {
+  background: rgba(15, 47, 121, 0.7);
 }
 .flexible__content .fc_carousel_images .lSAction > .lSPrev {
   left: 0;

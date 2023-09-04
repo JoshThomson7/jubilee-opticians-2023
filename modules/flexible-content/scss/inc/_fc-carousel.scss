@@ -15,8 +15,11 @@ Carousel
     .carousel_images{
         .carousel_image{
             margin: 0 15px;
+            @include breakpoint(sisterbear){margin: 0 auto;}
             
-            img { width: auto; max-height: 150px; min-width: 150px; margin: 0 20px;}
+            img { width: auto; max-height: 150px; min-width: 150px; margin: 0 20px;
+                @include breakpoint(sisterbear){margin: 0 auto;}
+            }
         }
     }
 
@@ -37,7 +40,9 @@ Carousel
     .lSAction {
         a { z-index: 5;
             &.lSPrev,
-            &.lSNext { background: none; color: $text; font-size: 40px; background: $tertiary; height: 47px; opacity: 1!important; color: white;}
+            &.lSNext { font-size: 40px; background: rgba(15, 47, 121, 0.5); height: 47px; opacity: 1!important; color: white;
+                &:hover{background: rgba(15, 47, 121, 0.7);}
+            }
         }
 
         &>.lSPrev { left:0; padding-left: 7px;}
