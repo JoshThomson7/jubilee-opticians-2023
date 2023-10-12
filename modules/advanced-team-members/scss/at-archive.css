@@ -676,7 +676,7 @@ section.team__filters .team__search__form input[type=text] {
   padding: 16px 50px 13px 15px;
   font-size: 16px;
   font-weight: 300;
-  color: #252924;
+  color: #1a1a1a;
   cursor: pointer;
   margin-right: 20px;
   border-radius: 3px;
@@ -687,7 +687,7 @@ section.team__filters .team__search__form input[type=text] {
 }
 section.team__filters .team__search__form input[type=text]::placeholder {
   opacity: 0.8;
-  color: #252924;
+  color: #1a1a1a;
 }
 section.team__filters .team__search__form input[type=text]:focus {
   border-color: #d1dee4;
@@ -699,7 +699,7 @@ section.team__filters .team__search__form .select2-container {
   border: 1px solid #e1e9ee;
   font-size: 16px;
   font-weight: 300;
-  color: #252924;
+  color: #1a1a1a;
   cursor: pointer;
   margin-right: 20px;
   border-radius: 3px;
@@ -713,11 +713,11 @@ section.team__filters .team__search__form .select2-container {
   background-size: 21px;
 }
 section.team__filters .team__search__form .select2-container input[type=search] {
-  color: #252924;
+  color: #1a1a1a;
 }
 section.team__filters .team__search__form .select2-container input[type=search]::placeholder {
   opacity: 0.8;
-  color: #252924;
+  color: #1a1a1a;
 }
 section.team__filters .team__search__form .select2-container input[type=search]:focus {
   border-color: #d1dee4;
@@ -764,10 +764,10 @@ section.team__filters .team__search__form .input__search__text span {
   right: 10px;
   top: calc(50% - 9px);
   font-size: 18px;
-  color: #3E443C;
+  color: #333333;
 }
 section.team__filters .team__search__form label {
-  color: #3E443C;
+  color: #333333;
   cursor: pointer;
   font-size: 14px;
   font-weight: 600;
@@ -823,7 +823,7 @@ section.team__filters .team__results .loading-overlay {
   justify-content: center;
   align-items: center;
   z-index: 6;
-  background: rgba(62, 68, 60, 0.5);
+  background: rgba(51, 51, 51, 0.5);
 }
 section.team__filters .team__results .loading-overlay #spinner {
   width: 40px;
@@ -831,7 +831,7 @@ section.team__filters .team__results .loading-overlay #spinner {
   transform: scale(2);
 }
 section.team__filters .team__results .loading-overlay #spinner path {
-  fill: #3E443C;
+  fill: #333333;
 }
 section.team__filters .team__results .masonry__item__wrapper .team__wrap {
   display: flex;
@@ -860,25 +860,25 @@ section.team__filters .team__results .masonry__item__wrapper .team__wrap article
   justify-content: center;
   align-items: center;
   border-radius: 3px;
-  background: #3E443C;
+  background: #333333;
 }
 section.team__filters .team__results .masonry__item__wrapper .team__wrap article a .team__overlay.member-join {
-  background: #3E443C;
+  background: #333333;
   opacity: 1;
 }
 section.team__filters .team__results .masonry__item__wrapper .team__wrap article a .team__overlay.member-join:hover {
   opacity: 1;
-  background: #0F2F79;
+  background: #C0C0C0;
 }
 section.team__filters .team__results .masonry__item__wrapper .team__wrap article a .team__overlay.member-join span.team-more {
   width: 165px;
   background: #FFF;
-  color: #3E443C;
+  color: #333333;
   padding: 8px 20px;
 }
 section.team__filters .team__results .masonry__item__wrapper .team__wrap article a .team__overlay span.team__more {
   padding: 10px 0;
-  color: #A8BAE3;
+  color: #008080;
   text-align: center;
   font-size: 22px;
   display: block;
@@ -900,7 +900,7 @@ section.team__filters .team__results .masonry__item__wrapper .team__wrap article
   bottom: 0px;
   width: 100%;
   background: rgba(241, 245, 247, 0.8);
-  color: #3E443C;
+  color: #333333;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -924,7 +924,7 @@ section.team__filters .team__results .masonry__item__wrapper .team__wrap article
   display: block;
   width: 2px;
   max-height: 60px;
-  background: #3E443C;
+  background: #333333;
   margin-right: 10px;
   height: 40px;
   margin-left: 20px;
@@ -981,16 +981,16 @@ section.team__filters .team__results .team__content h5 {
 }
 section.team__filters .team__results .team__content h2 {
   font-size: 1.2rem;
-  color: #A8BAE3;
+  color: #008080;
   margin-bottom: 20px;
   line-height: normal;
   font-weight: 600;
 }
 section.team__filters .team__results .team__content h2 a {
-  color: #3E443C;
+  color: #333333;
 }
 section.team__filters .team__results .team__content h2 a:hover {
-  color: #3E443C;
+  color: #333333;
 }
 section.team__filters .team__results .team__content p {
   font-size: 0.85rem;
@@ -1024,7 +1024,7 @@ section.team__filters .team__results .not__found figure i {
 }
 section.team__filters .team__results .not__found h3 {
   font-size: 16px;
-  color: #3E443C;
+  color: #333333;
   font-weight: 700;
   margin-bottom: 5px;
 }

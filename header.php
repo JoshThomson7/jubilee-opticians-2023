@@ -38,8 +38,7 @@
                     <div class="header_logo_menu">
                         <div class="logo">
                             <a href="<?php echo esc_url(home_url()); ?>" title="<?php bloginfo('name'); ?>">
-                                <h3>JUBILEE OPTICIANS</h3>
-                                <span>Complete Local Eyecare</span>
+                                <h3>TIME WISE STRATEGIES</h3>
                             </a>
                         </div><!-- logo -->
                     </div>
@@ -51,13 +50,14 @@
                             <li><i class="fa fa-envelope"></i><a href="mailto:<?php echo $email; ?>"><?php echo $email; ?></a></li>
                         </ul>
 
-                        <div class="header__menu">
+                        <!-- <div class="header__menu">
                             <?php wp_nav_menu(array('menu' => 'Main Menu', 'container' => false)); ?>
-                        </div><!-- header__right -->
+                        </div> -->
+                        <!-- header__right -->
 
-                        <div class="oc__nav__trigger">
+                        <!-- <div class="oc__nav__trigger">
                             <a class="button outline primary small"><i class="fa fa-bars"></i></a>
-                        </div>
+                        </div> -->
  
                     </div>
 
