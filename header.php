@@ -38,7 +38,7 @@
                     <div class="header_logo_menu">
                         <div class="logo">
                             <a href="<?php echo esc_url(home_url()); ?>" title="<?php bloginfo('name'); ?>">
-                                <h3>TIME WISE STRATEGIES</h3>
+                                <h3>TIMEWISE STRATEGIES</h3>
                             </a>
                         </div><!-- logo -->
                     </div>

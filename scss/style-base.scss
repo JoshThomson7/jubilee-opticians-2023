@@ -304,7 +304,7 @@ header.header { width:100%; transition: top .3s ease; position: sticky; z-index:
         }
     }
 
-    .header__main { position: relative; background: $secondary; border-bottom: 2px solid $secondary;
+    .header__main { position: relative; background: $primary; padding: 10px 0;
         @include breakpoint(papabear) { padding: 5px 0;}
 
         .max__width { display: flex; justify-content: space-between; align-items: center;}
@@ -314,7 +314,7 @@ header.header { width:100%; transition: top .3s ease; position: sticky; z-index:
             display: none;
             @include breakpoint(papabear) { display: block;}
 
-            a { display: flex; align-items: center; color: $primary; font-size: 16px;
+            a { display: flex; align-items: center; color: $secondary; font-size: 16px;
                 &:hover{
                     color: $white; background: $tertiary;
 
@@ -331,7 +331,7 @@ header.header { width:100%; transition: top .3s ease; position: sticky; z-index:
             .logo {
     
                 a { display:block; text-align: center;
-                    h3{font-size: 46px; margin-bottom: 10px; color: $tertiary; font-weight: 900;
+                    h3{font-size: 46px; color: $secondary; font-weight: 900;
                         @include breakpoint(mamabear){font-size: 28px;}
                     }
 
@@ -344,7 +344,7 @@ header.header { width:100%; transition: top .3s ease; position: sticky; z-index:
             }
         }
 
-        .header__cta{ display: flex; align-items: flex-end; justify-content: center; flex-direction: column; padding-top: 20px;
+        .header__cta{ display: flex; align-items: flex-end; justify-content: center; flex-direction: column;
             @include breakpoint(papabear) { flex-direction: row; align-items: center;}
 
             .contact{
@@ -355,9 +355,9 @@ header.header { width:100%; transition: top .3s ease; position: sticky; z-index:
                 li{
                     padding-left: 20px; display: flex; align-items: center;
     
-                    i{color: $white; margin-right: 7px; font-size: 22px;}
+                    i{color: $secondary; margin-right: 7px; font-size: 22px;}
     
-                    a{ color: $white; font-family: $primaryFont;
+                    a{ color: $secondary; font-family: $primaryFont;
                         &:hover{
                             color: $primary;
     
@@ -574,7 +574,7 @@ section {
 footer { padding: 0; position: relative;
 
     .footer__menus{
-        background: $secondary;
+        background: $primary;
 
         .max__width{
             padding: 40px 60px 20px; display:flex;
@@ -590,7 +590,7 @@ footer { padding: 0; position: relative;
                     margin-bottom: 30px; border-bottom: none;
                 }
 
-                h5 { font-size: 20px; font-weight: 600; color: $white; padding-bottom:20px;
+                h5 { font-size: 20px; font-weight: 600; color: $secondary; padding-bottom:20px;
                     @include breakpoint(papabear) { padding:20px 0; cursor:pointer;}
 
                     span { display:none; float:right; font-size:30px; position:relative; top:-6px;
@@ -608,7 +608,7 @@ footer { padding: 0; position: relative;
 
                         img { width: 140px; margin-right: 10px;}
 
-                        a { font-size: 14px; color: $white; cursor: pointer;
+                        a { font-size: 14px; color: $secondary; cursor: pointer;
                             @include breakpoint(papabear) { font-size: 16px;}
 
                             &:hover { color: $tertiary; opacity: 1;}
@@ -630,10 +630,10 @@ footer { padding: 0; position: relative;
                     }
 
                     p{
-                        color: $white; padding-bottom: 5px;
+                        color: $secondary; padding-bottom: 5px;
                     }
 
-                    i { font-size: 24px; color: $white; width: 22px; display: flex; justify-content: center; margin: 0px 15px 0 0;
+                    i { font-size: 24px; color: $secondary; width: 22px; display: flex; justify-content: center; margin: 0px 15px 0 0;
                         &:hover{
                             color: $tertiary;
                         }
@@ -641,12 +641,12 @@ footer { padding: 0; position: relative;
                 }
 
                 &.contact-info{
-                    i { font-size: 18px; color: $white; width: 22px; display: flex; justify-content: center; margin: 0px 15px 0 0;}
+                    i { font-size: 18px; color: $secondary; width: 22px; display: flex; justify-content: center; margin: 0px 15px 0 0;}
                 }
 
                 .contact{
                     a{
-                        color: white; line-height: 24px;
+                        color: $secondary; line-height: 24px;
 
                         &:hover{
                             color: $tertiary;
